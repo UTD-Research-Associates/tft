@@ -1,3 +1,5 @@
+//index.js
+
 // simple cloudflare worker to request a url and return the response
 addEventListener('fetch', event => {
 	event.respondWith(handleRequest(event.request));
